@@ -5,7 +5,7 @@ const residencies = [
     "city": "Bogotá",
     "price": 450000,
     "description": "Acogedor apartamento de una habitación cerca de la universidad.",
-    "photo": "/src/assets/photo_1.jpg",
+    "photo": "..//src/assets/photo_1.jpg",
     "availability": true,
     "owner": {
         "id": 101,
@@ -19,7 +19,7 @@ const residencies = [
     "city": "Bogotá",
     "price": 500000,
     "description": "Amplio apartamento de dos habitaciones con comodidades modernas.",
-    "photo": "/src/assets/photo_2.jpg",
+    "photo": "..//src/assets/photo_2.jpg",
     "availability": true,
     "owner": {
         "id": 102,
@@ -33,7 +33,7 @@ const residencies = [
     "city": "Bogotá",
     "price": 400000,
     "description": "Estudio económico cerca del transporte público.",
-    "photo": "/src/assets/photo_3.jpg",
+    "photo": "../src/assets/photo_3.jpg",
     "availability": true,
     "owner": {
         "id": 103,
@@ -47,7 +47,7 @@ const residencies = [
     "city": "Bogotá",
     "price": 600000,
     "description": "Apartamento lujoso con una gran vista.",
-    "photo": "/src/assets/photo_4.jpg",
+    "photo": "../src/assets/photo_4.jpg",
     "availability": true,
     "owner": {
         "id": 104,
@@ -61,7 +61,7 @@ const residencies = [
     "city": "Bogotá",
     "price": 550000,
     "description": "Apartamento de dos habitaciones en un vecindario tranquilo.",
-    "photo": "/src/assets/photo_5.jpg",
+    "photo": "../src/assets/photo_5.jpg",
     "availability": true,
     "owner": {
         "id": 105,
@@ -75,7 +75,7 @@ const residencies = [
     "city": "Bogotá",
     "price": 475000,
     "description": "Estudio moderno con todos los servicios incluidos.",
-    "photo": "/src/assets/photo_6.jpg",
+    "photo": "../src/assets/photo_6.jpg",
     "availability": true,
     "owner": {
         "id": 106,
