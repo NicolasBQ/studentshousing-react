@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Residency } from "../types";
+import { residencies } from "../data";
 
 type useResidencesRes = {
     residences: Array<Residency> | undefined,
@@ -12,12 +13,8 @@ const useResidences = (): useResidencesRes => {
     const [filteredResidences, setFilteredResidences] = useState<Array<Residency> | undefined>();
 
     useEffect(() => {
-        fetch('/data.json')
-            .then(res => res.json())
-            .then(residences => {
-                setResidences(residences.residences);
-                setFilteredResidences(residences.residences);
-            });
+        setResidences(residencies);
+        setFilteredResidences(residencies);
     }, []);
 
     const filterResidence = (newRes: Array<Residency> | undefined) => {
